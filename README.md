@@ -1,27 +1,89 @@
-# Africa Income Analysis Project
+# Africa GDP Analysis (2000–2024)
 
-A Python-based data analysis project focused on cleaning, processing, and analyzing primary income trends across various African regions. 
+## Project Overview
 
-## 📋 Project Overview
-This repository contains a Jupyter Notebook that walks through an end-to-end data pipeline for regional economic analysis. The goal is to ingest raw economic data, perform data cleaning via `pandas`, and structure the data for analytical reporting.
+This project analyzes Gross Domestic Product (GDP) trends across African countries from 2000 to 2024. The analysis focuses on economic growth, regional comparisons, and long-term trends using Python for data cleaning, exploration, and visualization.
 
-> 🔒 **Note on Data:** Source datasets (`.xlsx` files) are excluded from this public repository via `.gitignore` to maintain data privacy and ensure smooth repository performance.
+---
 
-## 🛠️ Tech Stack & Libraries
-* **Language:** Python 3.x
-* **Libraries:** 
-  * `pandas` (Data manipulation and analysis)
-  * `openpyxl` (Excel file engine support)
+## Objectives
 
-## 📁 Repository Structure
-* `Income_Analysis.ipynb` - The primary Jupyter Notebook containing the data cleaning pipeline.
-* `.gitignore` - Prevents raw data and local caches from being tracked by Git.
-* `README.md` - Documentation of the project.
+- Clean and preprocess GDP data
+- Analyze GDP growth trends across African countries
+- Compare GDP performance by country
+- Identify the fastest-growing economies
+- Examine GDP changes over time
+- Create insightful visualizations
+- Generate data-driven recommendations
 
-## 🚀 Getting Started
+---
 
-### Prerequisites
-Make sure you have Python installed along with the required libraries. You can install the dependencies using pip:
+## Dataset
 
-```bash
-pip install pandas openpyxl notebook
+The dataset contains GDP information for African countries from **2000 to 2024**.
+
+---
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Plotly
+- Jupyter Notebook
+
+---
+
+## Project Structure
+
+```
+africa-gdp-analysis/
+│
+├── data/
+├── notebooks/
+├── src/
+├── images/
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Analysis Performed
+
+- Data Cleaning
+- Missing Value Analysis
+- GDP Growth Trends
+- Top 10 Largest Economies
+- Top 10 Fastest Growing Economies
+- Country Comparisons
+- Regional GDP Distribution
+- GDP Growth Rate Analysis
+- Correlation Analysis
+
+---
+
+## Key Insights
+
+- Countries with the highest GDP
+- Countries experiencing the fastest economic growth
+- Economic trends from 2000–2024
+- Regional comparisons
+- GDP distribution across Africa
+
+---
+
+## Future Improvements
+
+- Predict future GDP using Machine Learning
+- Interactive Power BI Dashboard
+- Streamlit Web App
+- Integration with World Bank API
+
+---
+
+## Author
+
+John Isaac Mcharo
